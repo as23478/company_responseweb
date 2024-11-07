@@ -1,25 +1,24 @@
 @charset "utf-8";
 
-/*** 리뉴얼 ***/
-/* 브랜드 리뉴얼 240201 김진솔 */
-.yc_brand #sub_banner .sub_visual .visual_img{background-image:url(../img_new/value/bg.jpg);}
+
+.yc_brand #sub_banner .sub_visual .visual_img{background-image:url(../images/shop_1.png);}
 .yc_brand .cont_body{width:1000px;margin:0 auto;}
 .yc_brand .btn_flex{display:flex;justify-content:space-between;flex-wrap:wrap;}
 .yc_brand .brand_box{width:240px;}
 .yc_brand .brand_box:nth-child(n+5){margin-top:60px;}
 .yc_brand .brand_box button{position:relative;width:100%;height:300px;border:1px solid #c9c9c9;border-radius:10px;box-sizing:border-box;}
 .yc_brand .brand_box button:after{display:block;visibility:hidden;position:absolute;top:-1px;left:-1px;width:calc(100% + 2px);height:calc(100% + 2px);border-radius:10px;background-repeat:no-repeat;background-position:center;background-size:cover;content:"";opacity:0;}
-.yc_brand .brand_box:nth-child(1) button:after{background-image:url(../img_new/value/brand/brand_img1.jpg);}
-.yc_brand .brand_box:nth-child(2) button:after{background-image:url(../img_new/value/brand/brand_img2.jpg);}
-.yc_brand .brand_box:nth-child(3) button:after{background-image:url(../img_new/value/brand/brand_img3.jpg);}
-.yc_brand .brand_box:nth-child(4) button:after{background-image:url(../img_new/value/brand/brand_img4.jpg);}
-.yc_brand .brand_box:nth-child(5) button:after{background-image:url(../img_new/value/brand/brand_img5.jpg);}
-.yc_brand .brand_box:nth-child(6) button:after{background-image:url(../img_new/value/brand/brand_img6.jpg);}
-.yc_brand .brand_box:nth-child(7) button:after{background-image:url(../img_new/value/brand/brand_img7.jpg);}
-.yc_brand .brand_box:nth-child(8) button:after{background-image:url(../img_new/value/brand/brand_img8.jpg);}
-.yc_brand .brand_box button:hover img{display:none;}
+/* .yc_brand .brand_box:nth-child(1) button:after{background-image:url(../images/product/higen/product_1.png);}
+.yc_brand .brand_box:nth-child(2) button:after{background-image:url(../images/product/higen/product_2.png);}
+.yc_brand .brand_box:nth-child(3) button:after{background-image:url(../images/product/higen/product_3.png);}
+.yc_brand .brand_box:nth-child(4) button:after{background-image:url(../images/product/higen/product_4.png);}
+.yc_brand .brand_box:nth-child(5) button:after{background-image:url(../images/product/higen/product_5.png);}
+.yc_brand .brand_box:nth-child(6) button:after{background-image:url(../images/product/higen/product_6.png);}
+.yc_brand .brand_box:nth-child(7) button:after{background-image:url(../images/product/higen/product_7.png);}
+.yc_brand .brand_box:nth-child(8) button:after{background-image:url(../images/product/higen/product_8.png);} */
+.yc_brand .brand_box button:hover img{display:block;}
 .yc_brand .brand_box button:hover:after{visibility:visible;transition:200ms ease-in-out;opacity:1;}
-.yc_brand .brand_box .brand_nm{margin-top:30px;font-size:26px;font-weight:600;}
+.yc_brand .brand_box .brand_nm{margin-top:30px;font-size:20px;font-weight:600;}
 
 .brand_layer_popup{display:none;position:fixed;top:0;left:0;z-index:200;width:100%;height:100%;background-color:rgba(42, 42, 42, 0.8);}
 .brand_layer_popup.on{display:block;}
@@ -110,7 +109,7 @@
 
 /* rnd 리뉴얼 240201 김진솔 */
 @keyframes gageCharge {to{width:0px;}}
-.yc_rnd #sub_banner .sub_visual .visual_img{background-image:url(../img_new/value/bg2.jpg);}
+.yc_rnd #sub_banner .sub_visual .visual_img{background-image:url(../images/corporation2.jpg);} /* about 페이지 인증서 이미지 변경 */
 .yc_rnd .to_detail{width:300px;height:60px;margin-top:44px;color:white;font-size:20px;font-weight:600;}
 .yc_rnd .tab_match{width:1000px;margin:0 auto;}
 .yc_rnd .matchbox{padding-top:145px;}
@@ -149,15 +148,15 @@
 .yc_rnd .matchbox2 .tablebox .table td{padding:30px 0;border-bottom:2px solid #d6d6d6;font-size:18px;line-height:30px;word-break:keep-all;}
 .yc_rnd .matchbox2 .tablebox .open_table{display:none;}
 .yc_rnd .matchbox2 .mo_text{display:none;}
-.yc_rnd .matchbox2 .patent_box{margin-bottom:130px;}
-.yc_rnd .matchbox2 .patent_box .patent_title{margin-bottom: 50px;font-size: 42px;font-weight: 700;text-align: center;}
-.yc_rnd .matchbox2 .patent_box .patent_tab{width:420px;height:60px;margin:0 auto 35px;border-radius:30px;background-color:#f8f8f8;font-size:0;}
-.yc_rnd .matchbox2 .patent_box .patent_tab button{width:220px;height:100%;border-radius:30px;background-color:transparent;font-size:22px;font-weight:600;}
-.yc_rnd .matchbox2 .patent_box .patent_tab button.active{background-color:#008e43;color:white;}
-.yc_rnd .matchbox2 .patent_box .patent_tab button + button{margin-left:-20px;}
-.yc_rnd .matchbox2 .patent_box .patent_table{text-align:center;}
-.yc_rnd .matchbox2 .patent_box .certification{margin-top:60px;font-size:0;}
-.yc_rnd .matchbox2 .patent_box .certification img:nth-child(2){margin:0 10px;}
+	.yc_rnd .matchbox2 .patent_box{margin-bottom:130px;}
+	.yc_rnd .matchbox2 .patent_box .patent_title{margin-bottom: 50px;font-size: 42px;font-weight: 700;text-align: center;}
+	.yc_rnd .matchbox2 .patent_box .patent_tab{width:420px;height:60px;margin:0 auto 35px;border-radius:30px;background-color:#f8f8f8;font-size:0;}
+	.yc_rnd .matchbox2 .patent_box .patent_tab button{width:220px;height:100%;border-radius:30px;background-color:transparent;font-size:22px;font-weight:600;}
+	.yc_rnd .matchbox2 .patent_box .patent_tab button.active{background-color:#008e43;color:white;}
+	.yc_rnd .matchbox2 .patent_box .patent_tab button + button{margin-left:-20px;}
+	.yc_rnd .matchbox2 .patent_box .patent_table{text-align:center;}
+	.yc_rnd .matchbox2 .patent_box .certification{margin-top:60px;font-size:0;}
+	.yc_rnd .matchbox2 .patent_box .certification img{margin:10px;}
 .yc_rnd .matchbox2 .gray_area{position:relative;padding:110px 0 96px;}
 .yc_rnd .matchbox2 .gray_area:before{display:block;position:absolute;top:0;left:calc(50% - 50vw);width:100vw;height:100%;background-color:#f9f9f9;content:"";}
 .yc_rnd .matchbox2 .gray_area .match_title{margin-bottom:88px;}
@@ -249,7 +248,7 @@
 	.yc_rnd .matchbox2 .tablebox .table td:first-child:before{display:none;}
 	.yc_rnd .matchbox2 .tablebox .table td:nth-child(2){padding-top:10px;}
 	.yc_rnd .matchbox2 .tablebox .open_table{display:inline-block;width:100%;height:40px;font-size:30px;font-weight:600;text-align:left;}
-	.yc_rnd .matchbox2 .tablebox .open_table:after{display:block;position:absolute;top:15px;right:0;width:20px;height:10px;background:url(../../inc/img_new/common/arrow_bottom_black.svg) no-repeat center / contain;transition:transform 250ms ease-in-out;content:"";}
+	.yc_rnd .matchbox2 .tablebox .open_table:after{display:block;position:absolute;top:15px;right:0;width:32px;height:32px;background:url(../images/img/arrow-down-s-line.svg) no-repeat center / contain;transition:transform 250ms ease-in-out;content:"";}
 	.yc_rnd .matchbox2 .tablebox .open_table.on:after{transform:scaleY(-1);}
 	.yc_rnd .matchbox2 .tablebox .conbox{display:none;margin-top:10px;}
 	.yc_rnd .matchbox2 .tablebox.global td:nth-child(2) br{display:block;}
@@ -260,8 +259,8 @@
 	.yc_rnd .matchbox2 .patent_box .patent_title{font-size: 34px;}
 	.yc_rnd .matchbox2 .patent_box .patent_tab{display: none;}
 	.yc_rnd .matchbox2 .patent_box .certification{margin-top:50px;text-align:center;}
-	.yc_rnd .matchbox2 .patent_box .certification img{width:30%;}
-	.yc_rnd .matchbox2 .patent_box .certification img:nth-child(2){margin:0 10px;}
+	.yc_rnd .matchbox2 .patent_box .certification img{width:30%; margin: 10px;}
+	/* .yc_rnd .matchbox2 .patent_box .certification img:nth-child(2){margin:0 10px;} */
 	.yc_rnd .matchbox2 .gray_area{margin-bottom:70px;padding:0;}
 	.yc_rnd .matchbox2 .gray_area:before{display: none;}
 	.yc_rnd .matchbox2 .gray_area .match_title{margin-bottom:70px;}
@@ -330,7 +329,7 @@
 	.yc_rnd .matchbox2 .tablebox .table td{padding:0 10px;font-size:16px;line-height: 24px;}
 	.yc_rnd .matchbox2 .tablebox .table td:first-child{padding:20px 10px;font-size:18px;}
 	.yc_rnd .matchbox2 .tablebox .open_table{height:34px;font-size:24px;}
-	.yc_rnd .matchbox2 .tablebox .open_table:after{top:12px;}
+	.yc_rnd .matchbox2 .tablebox .open_table:after{top:5px;}
 	.yc_rnd .matchbox2 .tablebox.global td p{padding-left: 37px;}
 	.yc_rnd .matchbox2 .patent_box .certification{width:100vw;margin-top:20px;margin-left:-4vw;padding:0 4vw;white-space:nowrap;overflow-x:auto;}
 	.yc_rnd .matchbox2 .patent_box .certification img{min-width:250px;}
@@ -522,7 +521,7 @@
 .yc_fnb .store_box .store_inner .conbox:nth-child(2){position:absolute;top:0;transform:translateX(-10%);}
 .yc_fnb .store_box .store_inner .conbox:before{display:block;position:absolute;top:0;left:calc(50% - 50vw);width:100vw;height:500px;content:"";}
 .yc_fnb .store_box .store_inner .conbox:nth-child(1):before{background:url(../img_new/value/fnb/store_banner1.jpg) no-repeat center / cover;}
-.yc_fnb .store_box .store_inner .conbox:nth-child(2):before{background:url(../img_new/value/fnb/store_banner2.jpg) no-repeat center / cover;}
+.yc_fnb .store_box .store_inner .conbox:nth-child(2):before{background:url(../images/corporation2.jpg) no-repeat center / cover;}
 .yc_fnb .store_box .store_inner .conbox.active{visibility:visible;transform:translateX(0);opacity:1;}
 .yc_fnb .store_box .store_head{margin-bottom:80px;text-align:center;}
 .yc_fnb .store_box .store_sub{margin-bottom:20px;font-size:56px;font-weight:600;}
